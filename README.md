@@ -66,7 +66,7 @@ Tema escolhido: **organização de estudos com missões, foco e recompensas** (E
 
 
 
-### Integrantes e componentes (preencha os nomes)
+### Integrantes e componentes 
 
 Cada integrante apresenta e explica 2 componentes. 
 
