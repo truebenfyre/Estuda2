@@ -64,17 +64,11 @@ Tema escolhido: **organização de estudos com missões, foco e recompensas** (E
 
 ### Integrantes e componentes (preencha os nomes)
 
-Cada integrante apresenta e explica 2 componentes. Ajuste a tabela ao tamanho do grupo.
+Cada integrante apresenta e explica 2 componentes. 
 
 | Integrante | Componente 1 | Componente 2 |
 |---|---|---|
-| Aluno 1 Davi Lucas Cruz Paz/01800210git init
-git add .
-git status
-git commit -m "Primeira versão do Estuda"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/estuda.git
-git push -u origin main| `Modal` (`components/ui/modal.tsx`) — `useRef`, `useId`, `useEffect` | `ProgressBar` (`components/ui/progress-bar.tsx`) — props e estilo dinâmico |
+| Aluno 1 Davi Lucas Cruz Paz/01800210 `Modal` (`components/ui/modal.tsx`) — `useRef`, `useId`, `useEffect` | `ProgressBar` (`components/ui/progress-bar.tsx`) — props e estilo dinâmico |
 | Aluno 2 Ryan Rodrigues de Medeiros/01795192| `MissionCard` (`components/missions/mission-card.tsx`) — Context e eventos | `FocusTimer` (`components/missions/focus-timer.tsx`) — `useMemo` |
 | Aluno 3 Peterson Tavares Bello/01794713| `Navigation` (`components/layout/navigation.tsx`) — roteamento e `Link` | `TopBar` (`components/layout/top-bar.tsx`) — Context e ações |
 | Aluno 4 Arthur Alves Patrício de Carvalho 01805701 `AuthForm` (`components/auth/auth-form.tsx`) — formulário e `async` | `EntryCard` (`components/auth/entry-card.tsx`) — `useState` e `useEffect` |
@@ -92,28 +86,10 @@ Componentes de apoio (usados pelos de cima): `Logo`, `EmptyState`, `Sidebar`, `P
 
 ### Prints das telas
 
-Coloque os prints em `docs/prints/` e confira se os nomes abaixo existem antes de entregar:
+Os Prints estão na pasta docs/prints
 
-![Login](docs/prints/login.png)
-![Meu dia](docs/prints/meu-dia.png)
-![Missões](docs/prints/missoes.png)
-![Matérias](docs/prints/materias.png)
-![Recompensas](docs/prints/recompensas.png)
-![Conquistas](docs/prints/conquistas.png)
 
-Para gerar os prints: `npm run dev:local`, abra http://127.0.0.1:3210/login, entre no modo local e capture cada tela.
 
-## Conectar contas Supabase
-
-Supabase é o caminho planejado para contas reais, mas o repositório não inclui um projeto configurado nem credenciais.
-
-1. Crie ou selecione o projeto Supabase que pertencerá ao Estuda.
-2. Copie `.env.example` para `.env.local` e preencha `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` e `APP_URL`. Uma chave `service_role` não é necessária nem utilizada.
-3. Aplique `supabase/migrations/202609260001_student_states.sql` nesse projeto.
-4. Habilite autenticação por email/senha e confirmação de email.
-5. Autorize os redirecionamentos para `/auth/callback` e `/auth/callback?next=/recuperar-senha` na origem definida por `APP_URL`.
-6. Antes do deploy, configure SMTP, o `APP_URL` HTTPS definitivo e as mesmas variáveis e URLs de redirecionamento na hospedagem.
-7. Teste cadastro, confirmação de email, login, recuperação de senha, logout, persistência após recarga e isolamento entre duas contas reais.
 
 A migração guarda um documento JSON versionado por usuário e aplica propriedade com RLS. As rotas de servidor verificam a sessão em vez de confiar em um identificador enviado pelo navegador. Dados antigos do navegador nunca são enviados automaticamente; a importação exige um destino vazio e confirmação explícita.
 
