@@ -52,15 +52,7 @@ Os testes cobrem regras de domínio, fluxos da interface, sessões locais assina
 
 Tema escolhido: **organização de estudos com missões, foco e recompensas** (Estuda).
 
-### Requisitos mínimos
 
-| Requisito | Como o projeto atende |
-|---|---|
-| React.js com **TypeScript** | 100% do código da aplicação e dos testes está em `.ts`/`.tsx` (`allowJs` desligado e `strict` ligado; `npm run check` valida). |
-| **8+ componentes** funcionais | Mais de 30 componentes funcionais em `components/` (lista abaixo). |
-| **5+ páginas** distintas | 5 páginas privadas (`/meu-dia`, `/missoes`, `/materias`, `/recompensas`, `/conquistas`) + `/login` e `/recuperar-senha`, cada uma em seu `app/<rota>/page.tsx`. |
-| **4+ hooks** diferentes | `useState`, `useEffect`, `useRef`, `useId`, `useContext`, `useMemo`, `useCallback` e 6 hooks customizados (`useStudy`, `useNow`, `useStudentData`, `useTimerTick`, `useTheme`, `usePageFocus`). |
-| Backend/API (extra) | Rotas de API do Next.js (`app/api/*`) com persistência local em arquivo e **Supabase** (Postgres + RLS + autenticação). |
 
 ### Integrantes e componentes (preencha os nomes)
 
@@ -71,7 +63,7 @@ Cada integrante apresenta e explica 2 componentes.
 | Aluno 1 Davi Lucas Cruz Paz/01800210 `Modal` (`components/ui/modal.tsx`) — `useRef`, `useId`, `useEffect` | `ProgressBar` (`components/ui/progress-bar.tsx`) — props e estilo dinâmico |
 | Aluno 2 Ryan Rodrigues de Medeiros/01795192| `MissionCard` (`components/missions/mission-card.tsx`) — Context e eventos | `FocusTimer` (`components/missions/focus-timer.tsx`) — `useMemo` |
 | Aluno 3 Peterson Tavares Bello/01794713| `Navigation` (`components/layout/navigation.tsx`) — roteamento e `Link` | `TopBar` (`components/layout/top-bar.tsx`) — Context e ações |
-| Aluno 4 Arthur Alves Patrício de Carvalho 01805701 `AuthForm` (`components/auth/auth-form.tsx`) — formulário e `async` | `EntryCard` (`components/auth/entry-card.tsx`) — `useState` e `useEffect` |
+| Aluno 4 Arthur Alves Patrício de Carvalho 01805701 |`AuthForm` (`components/auth/auth-form.tsx`) — formulário e `async` | `EntryCard` (`components/auth/entry-card.tsx`) — `useState` e `useEffect` |
 | Aluno 5 Kayky de Sousa Figuerêdo/01797264| `ModalHost` (`components/forms/modal-host.tsx`) — formulários tipados | `AppShell` (`components/layout/app-shell.tsx`) — composição com `children` |
 
 Componentes de apoio (usados pelos de cima): `Logo`, `EmptyState`, `Sidebar`, `PageHeader`, `SidePanel`, `DaySummary`, `SubjectCard`, `RewardCard`, `AchievementCard`, `LoginScreen`, as cinco telas em `components/screens/` e os campos de formulário em `components/forms/modal-fields.tsx`.
