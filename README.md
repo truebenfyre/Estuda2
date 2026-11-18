@@ -1,3 +1,8 @@
+<img width="2830" height="1374" alt="image" src="https://github.com/user-attachments/assets/734b3e88-1ecc-44f0-92a9-f3205b96ad4e" />
+
+
+
+
 # Estuda
 
 Estuda é um projeto acadêmico em **React + TypeScript** (Next.js) para organizar missões de estudo, sessões de foco, progresso e recompensas pessoais. A interface funciona em desktop e celular.
