@@ -6,6 +6,18 @@
 <img width="2830" height="1374" alt="image" src="https://github.com/user-attachments/assets/1379bd9a-8dd4-410b-809c-931691286067" />
 
 
+### Integrantes e componentes 
+
+Cada integrante apresenta e explica 2 componentes. 
+
+| Integrante | Componente 1 | Componente 2 |
+|---|---|---|
+| Aluno 1 Davi Lucas Cruz Paz/01800210 `Modal` (`components/ui/modal.tsx`) — `useRef`, `useId`, `useEffect` | `ProgressBar` (`components/ui/progress-bar.tsx`) — props e estilo dinâmico |
+| Aluno 2 Ryan Rodrigues de Medeiros/01795192| `MissionCard` (`components/missions/mission-card.tsx`) — Context e eventos | `FocusTimer` (`components/missions/focus-timer.tsx`) — `useMemo` |
+| Aluno 3 Peterson Tavares Bello/01794713| `Navigation` (`components/layout/navigation.tsx`) — roteamento e `Link` | `TopBar` (`components/layout/top-bar.tsx`) — Context e ações |
+| Aluno 4 Arthur Alves Patrício de Carvalho 01805701 |`AuthForm` (`components/auth/auth-form.tsx`) — formulário e `async` | `EntryCard` (`components/auth/entry-card.tsx`) — `useState` e `useEffect` |
+| Aluno 5 Kayky de Sousa Figuerêdo/01797264| `ModalHost` (`components/forms/modal-host.tsx`) — formulários tipados | `AppShell` (`components/layout/app-shell.tsx`) — composição com `children` |
+
 
 
 
@@ -66,17 +78,7 @@ Tema escolhido: **organização de estudos com missões, foco e recompensas** (E
 
 
 
-### Integrantes e componentes 
 
-Cada integrante apresenta e explica 2 componentes. 
-
-| Integrante | Componente 1 | Componente 2 |
-|---|---|---|
-| Aluno 1 Davi Lucas Cruz Paz/01800210 `Modal` (`components/ui/modal.tsx`) — `useRef`, `useId`, `useEffect` | `ProgressBar` (`components/ui/progress-bar.tsx`) — props e estilo dinâmico |
-| Aluno 2 Ryan Rodrigues de Medeiros/01795192| `MissionCard` (`components/missions/mission-card.tsx`) — Context e eventos | `FocusTimer` (`components/missions/focus-timer.tsx`) — `useMemo` |
-| Aluno 3 Peterson Tavares Bello/01794713| `Navigation` (`components/layout/navigation.tsx`) — roteamento e `Link` | `TopBar` (`components/layout/top-bar.tsx`) — Context e ações |
-| Aluno 4 Arthur Alves Patrício de Carvalho 01805701 |`AuthForm` (`components/auth/auth-form.tsx`) — formulário e `async` | `EntryCard` (`components/auth/entry-card.tsx`) — `useState` e `useEffect` |
-| Aluno 5 Kayky de Sousa Figuerêdo/01797264| `ModalHost` (`components/forms/modal-host.tsx`) — formulários tipados | `AppShell` (`components/layout/app-shell.tsx`) — composição com `children` |
 
 Componentes de apoio (usados pelos de cima): `Logo`, `EmptyState`, `Sidebar`, `PageHeader`, `SidePanel`, `DaySummary`, `SubjectCard`, `RewardCard`, `AchievementCard`, `LoginScreen`, as cinco telas em `components/screens/` e os campos de formulário em `components/forms/modal-fields.tsx`.
 
@@ -88,14 +90,7 @@ Componentes de apoio (usados pelos de cima): `Logo`, `EmptyState`, `Sidebar`, `P
 4. `AppShell` desenha menu, topo e painel lateral e encaixa a tela da rota no meio (`children`).
 5. As regras do jogo (XP, moedas, nível) ficam em `lib/model.ts`, fora dos componentes.
 
-### Prints das telas
 
-Os Prints estão na pasta docs/prints
-
-
-
-
-A migração guarda um documento JSON versionado por usuário e aplica propriedade com RLS. As rotas de servidor verificam a sessão em vez de confiar em um identificador enviado pelo navegador. Dados antigos do navegador nunca são enviados automaticamente; a importação exige um destino vazio e confirmação explícita.
 
 ## Regras atuais do produto
 
