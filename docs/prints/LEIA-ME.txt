@@ -1,1 +1,6 @@
-Coloque aqui os prints das telas (login.png, meu-dia.png, missoes.png, materias.png, recompensas.png, conquistas.png).
+<img width="2654" height="1334" alt="image" src="https://github.com/user-attachments/assets/207eb0bf-ccc9-464a-a3db-0c3e8aafcf3c" />
+<img width="2852" height="1384" alt="image" src="https://github.com/user-attachments/assets/07c619cc-f6e9-4db2-8c2a-12aed10198a6" />
+<img width="2858" height="1400" alt="image" src="https://github.com/user-attachments/assets/09f5aad4-944f-4a42-9af8-977cd212323b" />
+<img width="2840" height="1374" alt="image" src="https://github.com/user-attachments/assets/f3e5f565-9e9c-4ff5-8e00-35c9015e7fbf" />
+<img width="2824" height="1382" alt="image" src="https://github.com/user-attachments/assets/9a4f1b19-8481-45cb-9d2a-413b5ed472be" />
+<img width="2830" height="1374" alt="image" src="https://github.com/user-attachments/assets/1379bd9a-8dd4-410b-809c-931691286067" />
